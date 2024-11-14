@@ -1,13 +1,17 @@
 ---
-title: "My title"
-subtitle: "My subtitle if needed"
+title: "Lowest Product Prices across Canadian Groceries"
+subtitle: "Analysis the Price per Units of Selected Product across 8 Canadian Groceries "
 author: 
-  - First author
-  - Another author
-thanks: "Code and data are available at: [https://github.com/RohanAlexander/starter_folder](https://github.com/RohanAlexander/starter_folder)."
+  - Yun Chu
+  - Yiyue Deng
+  - Tiarui Fu
+  - Yanzun Jiang
+  - Felix Li
+  - Wen Han Zhao
+thanks: "Code and data are available at: [https://github.com/younazhao/Canadian-Grocery-Analysis](https://github.com/younazhao/Canadian-Grocery-Analysis)."
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "This study compares the pricing of various grocers to determine which consistently offers the lowest prices across comparable product families. By analyzing data collected from market surveys over several months, we assess price differences in categories such as fresh produce, packaged goods, and household items. The results show that discount grocers generally offer the lowest prices, with regional stores occasionally providing competitive pricing in select categories. These findings provide valuable insights for consumers looking to maximize savings and for businesses aiming to refine pricing strategies. The results "
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -20,6 +24,7 @@ bibliography: references.bib
 
 library(tidyverse)
 library(palmerpenguins)
+data <- read.csv(file = here::here('data/01-analysis_data/analysis_data.csv'))
 ```
 
 
@@ -33,64 +38,19 @@ This study fills that gap by rigorously analyzing Project Hammer’s data from F
 
 ## Overview
 
-We use the statistical programming language R [@citeR].... Our data [@shelter].... Following @tellingstories, we consider...
+The data is from @projecthammer which contains Canadian Grocery Price Data from February 28, 2024 to today November 14, 2024. The 8 vendors in the dataset contains: Voila, T&T, Loblaws, No Frills, Metro, Galleria, Walmart and Save-On-Foods. The variables key to this paper are price per units, vendors, product_id, and product name. 
 
-Overview text
+Price per Unit: This represents the price for each product, normalized by its unit of measurement (e.g., per kilogram, per liter, or per item). This variable is pivotal for our analysis of price comparison across vendors and is used to identify the lowest price for specific products across all vendors.
+
+Vendors: The vendor variable identifies the specific retailer selling the product. By analyzing prices across different vendors, we can examine competitive pricing strategies and pricing trends for the same products offered by different retailers.
+
+Product ID: The product_id is an internal identifier that uniquely represents a product at a specific vendor. This allows us to track individual products over time. However, since product_id is not consistent across vendors, we focus on the product_name to ensure accurate cross-vendor comparisons.
+
+Product Name: The product_name variable represents the name of the product, often including details like brand and packaging size. Since product names may vary slightly across vendors (e.g., "Banana Organic" at one vendor and "Organic Banana" at another), we will standardize product names where necessary for comparison.
 
 ## Measurement
 	
-Some paragraphs about how we go from a phenomena in the world to an entry in the dataset.
-
-## Outcome variables
-
-Add graphs, tables and text. Use sub-sub-headings for each outcome variable or update the subheading to be singular.
-
-
-
-Some of our data is of penguins (@fig-bills), from @palmerpenguins.
-
-```{r}
-#| label: fig-bills
-#| fig-cap: Bills of penguins
-#| echo: false
-
-ggplot(penguins, aes(x = island, fill = species)) +
-  geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = "none") +
-  theme_minimal() +
-  facet_wrap(~species, ncol = 1) +
-  coord_flip()
-```
-
-Talk more about it.
-
-And also planes (@fig-planes). (You can change the height and width, but don't worry about doing that until you have finished every other aspect of the paper - Quarto will try to make it look nice and the defaults usually work well once you have enough text.)
-
-```{r}
-#| label: fig-planes
-#| fig-cap: Relationship between wing length and width
-#| echo: false
-#| warning: false
-#| message: false
-
-analysis_data <- read_csv(here::here("data/02-analysis_data/analysis_data.csv"))
-
-analysis_data |> 
-  ggplot(aes(x = width, y = length)) +
-  geom_point(alpha = 0.8) +
-  theme_minimal() +
-  labs(x = "Wing width (mm)",
-       y = "Wing length (mm)")
-```
-
-Talk way more about it. 
-
-## Predictor variables
-
-Add graphs, tables and text.
-
-Use sub-sub-headings for each outcome variable and feel free to combine a few into one if they go together naturally.
+The measurement of data in this analysis will focus on the price per unit variable, which represents the cost of a product per its unit of measurement (e.g., per kilogram, per liter, or per item). This metric allows for a standardized comparison of prices across different Canadian grocery vendors. By analyzing the price per unit, we can identify the lowest price for each product offered by various vendors, enabling us to assess price variations and competitive pricing strategies within the market.
 
 
 # Results
@@ -98,20 +58,58 @@ Use sub-sub-headings for each outcome variable and feel free to combine a few in
 Our results are summarized in @tbl-modelresults.
 
 ```{r}
+#| label: fig-grocerybread
+#| fig-cap: Price per Unit of Milk Across Vendors
 #| echo: false
-#| eval: true
-#| warning: false
+# Load the necessary library
+library(ggplot2)
+library(dplyr)
+
+# Filter for Multigrain Bread
+df_multigrainbread <- data %>%
+  filter(grepl("multigrain bread", product_name, ignore.case = TRUE))
+
+# Create a box plot
+ggplot(df_multigrainbread, aes(x = vendor, y = price_per_unit)) +
+  geom_boxplot() +
+  labs(title = "Price per Unit of Multigrain Bread Across Vendors",
+       x = "Vendor", y = "Price per Unit") +
+  theme_minimal()
 ```
 
 ```{r}
+#| label: fig-groceryjuice
+#| fig-cap: Price per Unit of 100% Juice Acrss Vendors 
 #| echo: false
-#| eval: true
-#| label: tbl-modelresults
-#| tbl-cap: "Explanatory models of flight time based on wing width and wing length"
-#| warning: false
+
+# Filter for 100% Juice
+df_juice <- data %>%
+  filter(grepl("100% Juice", product_name, ignore.case = TRUE))
+
+# Create a graph
+ggplot(df_juice, aes(x = vendor, y = price_per_unit)) +
+  geom_boxplot() +
+  labs(title = "Price per Unit of Multigrain Bread Across Vendors",
+       x = "Vendor", y = "Price per Unit") +
+  theme_minimal()
 ```
 
+```{r}
+#| label: fig-groceryeggplant
+#| fig-cap: Price per units of Eggplant across vendors
+#| echo: false
 
+# Filter for Eggplant 
+df_eggplant <- data %>%
+  filter(grepl("eggplant", product_name, ignore.case = TRUE))
+
+# Create a graph
+ggplot(df_eggplant, aes(x = vendor, y = price_per_unit)) +
+  geom_boxplot() +
+  labs(title = "Price per Unit of Eggplant Across Vendors",
+       x = "Vendor", y = "Price per Unit") +
+  theme_minimal()
+```
 
 
 # Discussion
