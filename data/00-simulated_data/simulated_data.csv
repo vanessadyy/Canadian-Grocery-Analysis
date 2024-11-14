@@ -1,152 +1,201 @@
-division,state,party
-Division 1,Victoria,Liberal
-Division 2,New South Wales,Liberal
-Division 3,Tasmania,Liberal
-Division 4,New South Wales,Liberal
-Division 5,Queensland,Liberal
-Division 6,New South Wales,Labor
-Division 7,Victoria,Liberal
-Division 8,Western Australia,Labor
-Division 9,Western Australia,Greens
-Division 10,Queensland,Labor
-Division 11,Queensland,Labor
-Division 12,Northern Territory,Liberal
-Division 13,New South Wales,Labor
-Division 14,Western Australia,Labor
-Division 15,Western Australia,National
-Division 16,Victoria,Liberal
-Division 17,South Australia,Liberal
-Division 18,Victoria,Liberal
-Division 19,Western Australia,Labor
-Division 20,South Australia,Labor
-Division 21,New South Wales,Liberal
-Division 22,Queensland,Greens
-Division 23,New South Wales,Liberal
-Division 24,New South Wales,Liberal
-Division 25,Queensland,Labor
-Division 26,Victoria,National
-Division 27,New South Wales,Liberal
-Division 28,Queensland,Liberal
-Division 29,Tasmania,Liberal
-Division 30,South Australia,Liberal
-Division 31,New South Wales,Liberal
-Division 32,Victoria,Labor
-Division 33,Tasmania,Liberal
-Division 34,New South Wales,Liberal
-Division 35,Western Australia,Labor
-Division 36,New South Wales,Liberal
-Division 37,Tasmania,Greens
-Division 38,Tasmania,Labor
-Division 39,Victoria,Greens
-Division 40,South Australia,Labor
-Division 41,New South Wales,Other
-Division 42,New South Wales,Other
-Division 43,Tasmania,Labor
-Division 44,Tasmania,National
-Division 45,Queensland,Liberal
-Division 46,Australian Capital Territory,Other
-Division 47,Queensland,Labor
-Division 48,Queensland,Other
-Division 49,South Australia,Liberal
-Division 50,Victoria,National
-Division 51,South Australia,Liberal
-Division 52,Victoria,Labor
-Division 53,South Australia,National
-Division 54,Queensland,Liberal
-Division 55,Queensland,Labor
-Division 56,South Australia,Liberal
-Division 57,New South Wales,Other
-Division 58,Northern Territory,Liberal
-Division 59,New South Wales,Labor
-Division 60,Western Australia,Labor
-Division 61,New South Wales,Liberal
-Division 62,South Australia,Liberal
-Division 63,Queensland,Labor
-Division 64,Tasmania,Labor
-Division 65,South Australia,Labor
-Division 66,Victoria,Labor
-Division 67,Queensland,Liberal
-Division 68,Queensland,Liberal
-Division 69,Tasmania,Labor
-Division 70,South Australia,National
-Division 71,Australian Capital Territory,Labor
-Division 72,Western Australia,Labor
-Division 73,Queensland,National
-Division 74,Victoria,Labor
-Division 75,Western Australia,Labor
-Division 76,Tasmania,Labor
-Division 77,Queensland,Liberal
-Division 78,Western Australia,Liberal
-Division 79,Queensland,Labor
-Division 80,Queensland,Liberal
-Division 81,Victoria,Labor
-Division 82,New South Wales,Liberal
-Division 83,Victoria,Liberal
-Division 84,Queensland,National
-Division 85,Western Australia,Liberal
-Division 86,New South Wales,Labor
-Division 87,Queensland,Liberal
-Division 88,New South Wales,Liberal
-Division 89,Tasmania,Liberal
-Division 90,South Australia,Labor
-Division 91,Victoria,Liberal
-Division 92,New South Wales,Labor
-Division 93,Tasmania,Labor
-Division 94,South Australia,Labor
-Division 95,Victoria,Liberal
-Division 96,Victoria,Labor
-Division 97,Western Australia,Liberal
-Division 98,Queensland,Liberal
-Division 99,South Australia,Liberal
-Division 100,New South Wales,Labor
-Division 101,South Australia,Labor
-Division 102,New South Wales,Labor
-Division 103,Victoria,Labor
-Division 104,Victoria,Labor
-Division 105,South Australia,Other
-Division 106,Western Australia,Labor
-Division 107,Tasmania,Liberal
-Division 108,Victoria,Labor
-Division 109,Queensland,Liberal
-Division 110,Victoria,Labor
-Division 111,Australian Capital Territory,Labor
-Division 112,Victoria,Liberal
-Division 113,Victoria,Liberal
-Division 114,Victoria,Liberal
-Division 115,Tasmania,Labor
-Division 116,Victoria,Labor
-Division 117,New South Wales,Labor
-Division 118,Victoria,Labor
-Division 119,Victoria,Greens
-Division 120,Northern Territory,Labor
-Division 121,South Australia,Liberal
-Division 122,New South Wales,Liberal
-Division 123,New South Wales,Labor
-Division 124,New South Wales,Liberal
-Division 125,New South Wales,National
-Division 126,New South Wales,Labor
-Division 127,Queensland,Labor
-Division 128,New South Wales,Other
-Division 129,Queensland,Labor
-Division 130,Australian Capital Territory,Liberal
-Division 131,Tasmania,Greens
-Division 132,New South Wales,National
-Division 133,New South Wales,Labor
-Division 134,Northern Territory,Labor
-Division 135,South Australia,National
-Division 136,Victoria,Labor
-Division 137,Tasmania,National
-Division 138,South Australia,Liberal
-Division 139,New South Wales,Labor
-Division 140,Victoria,Other
-Division 141,Queensland,Greens
-Division 142,Victoria,National
-Division 143,Western Australia,Labor
-Division 144,Victoria,Labor
-Division 145,Queensland,Liberal
-Division 146,Tasmania,Liberal
-Division 147,South Australia,Liberal
-Division 148,Victoria,Labor
-Division 149,New South Wales,National
-Division 150,New South Wales,Labor
-Division 151,Victoria,Liberal
+"","nowtime","vendor","product_id","product_name","brand","current_price","old_price","units","price_per_unit","other"
+"1",2024-06-18 06:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.9,5.12,"310g","$2.7/100g","SALE"
+"2",2024-06-20 06:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.65,NA,"310g","$2.17/100g","SALE"
+"3",2024-06-08 10:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.15,6.67,"310g","$2.34/100g","SALE"
+"4",2024-06-22 21:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.4,NA,"310g","$2.02/100g","SALE"
+"5",2024-06-09 02:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.78,7.73,"310g","$2.53/100g","SALE"
+"6",2024-06-05 21:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.04,6.88,"310g","$2.81/100g","SALE"
+"7",2024-06-13 10:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.26,5.93,"310g","$2.64/100g","SALE"
+"8",2024-06-10 12:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.46,7.14,"310g","$1.14/100g","SALE"
+"9",2024-06-11 03:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.95,8.15,"310g","$1.01/100g",NA
+"10",2024-06-01 13:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.32,NA,"310g","$1.1/100g","SALE"
+"11",2024-06-16 13:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.57,8.3,"310g","$2.73/100g","SALE"
+"12",2024-06-28 16:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.28,8.65,"310g","$2.15/100g","SALE"
+"13",2024-06-26 01:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.77,7.43,"310g","$1.63/100g","SALE"
+"14",2024-06-26 02:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.01,NA,"310g","$2.92/100g","SALE"
+"15",2024-06-30 12:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.18,5.03,"310g","$2.18/100g","SALE"
+"16",2024-06-04 18:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.19,5.02,"310g","$2.06/100g","SALE"
+"17",2024-06-15 11:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.77,NA,"310g","$1.77/100g","SALE"
+"18",2024-06-28,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.28,5.54,"310g","$1.64/100g","SALE"
+"19",2024-06-15 18:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.27,7.09,"310g","$2.62/100g","SALE"
+"20",2024-06-02 01:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.48,8.59,"310g","$1.08/100g",NA
+"21",2024-06-22 14:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.74,8.71,"310g","$1.73/100g","SALE"
+"22",2024-06-18 17:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.52,NA,"310g","$2.71/100g","SALE"
+"23",2024-06-28,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.52,8.04,"310g","$2.4/100g",NA
+"24",2024-06-09 18:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.17,8.78,"310g","$2.37/100g",NA
+"25",2024-06-25 13:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,8,9.24,"310g","$1.7/100g","SALE"
+"26",2024-06-25 16:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.17,NA,"310g","$2.11/100g","SALE"
+"27",2024-06-24 02:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.69,8.97,"310g","$1.27/100g",NA
+"28",2024-06-16 12:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.58,5.11,"310g","$2.57/100g","SALE"
+"29",2024-06-06 22:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.09,7.08,"310g","$2.77/100g","SALE"
+"30",2024-06-23 15:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.43,9.37,"310g","$1.41/100g","SALE"
+"31",2024-06-21 09:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.69,8.24,"310g","$2.54/100g","SALE"
+"32",2024-06-26 20:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.17,9.62,"310g","$2.19/100g","SALE"
+"33",2024-06-01 22:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.57,NA,"310g","$2.92/100g","SALE"
+"34",2024-06-13 20:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.46,6.58,"310g","$1.32/100g","SALE"
+"35",2024-06-06 14:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.49,9.02,"310g","$2.05/100g","SALE"
+"36",2024-06-10 07:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.21,9.94,"310g","$2.75/100g","SALE"
+"37",2024-06-07 21:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.22,6.61,"310g","$2.74/100g","SALE"
+"38",2024-06-10,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.89,5.01,"310g","$1.05/100g","SALE"
+"39",2024-06-13 01:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.07,9.96,"310g","$2.95/100g","SALE"
+"40",2024-06-25 04:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.6,NA,"310g","$1.98/100g","SALE"
+"41",2024-06-03 23:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.63,5.25,"310g","$1.78/100g",NA
+"42",2024-06-25 11:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.13,7.99,"310g","$1.84/100g","SALE"
+"43",2024-06-24 22:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.43,6.61,"310g","$1.19/100g","SALE"
+"44",2024-06-06 20:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.85,7.64,"310g","$1.32/100g","SALE"
+"45",2024-06-07 08:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.92,NA,"310g","$1.81/100g","SALE"
+"46",2024-06-13 05:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.94,5.34,"310g","$1.68/100g","SALE"
+"47",2024-06-12 12:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.15,8.48,"310g","$1.83/100g","SALE"
+"48",2024-06-20 06:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.12,9.74,"310g","$1.61/100g",NA
+"49",2024-06-02 16:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.68,6.39,"310g","$2.12/100g","SALE"
+"50",2024-06-18 22:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.84,6.25,"310g","$1.31/100g","SALE"
+"51",2024-06-04 17:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.58,5.8,"310g","$2.91/100g","SALE"
+"52",2024-06-14 03:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.82,5.36,"310g","$1.09/100g","SALE"
+"53",2024-06-10 06:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.11,7.79,"310g","$1.74/100g","SALE"
+"54",2024-06-22 23:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.93,7.45,"310g","$2.93/100g","SALE"
+"55",2024-06-05 19:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.34,7.47,"310g","$2.29/100g",NA
+"56",2024-06-26 05:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.09,9.44,"310g","$1.12/100g","SALE"
+"57",2024-06-19 23:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.62,5.18,"310g","$1.82/100g","SALE"
+"58",2024-06-25 21:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.18,NA,"310g","$1.85/100g","SALE"
+"59",2024-06-02 14:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.72,NA,"310g","$2.02/100g","SALE"
+"60",2024-06-07 14:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.96,6.18,"310g","$1.9/100g","SALE"
+"61",2024-06-09 16:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.48,7.88,"310g","$2.25/100g","SALE"
+"62",2024-06-16 13:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.54,7.41,"310g","$1.28/100g","SALE"
+"63",2024-06-02 09:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.82,7.85,"310g","$2.82/100g",NA
+"64",2024-06-22 11:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.92,5.72,"310g","$2.14/100g",NA
+"65",2024-06-01 12:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.97,5.73,"310g","$2.1/100g","SALE"
+"66",2024-06-03 20:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.09,7.06,"310g","$1.23/100g","SALE"
+"67",2024-06-18,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.03,8.42,"310g","$2.52/100g",NA
+"68",2024-06-13 19:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.42,8.27,"310g","$1.96/100g","SALE"
+"69",2024-06-12 13:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.11,9.58,"310g","$2.56/100g","SALE"
+"70",2024-06-04 16:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.71,9.07,"310g","$1.09/100g","SALE"
+"71",2024-06-23 08:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.33,8.38,"310g","$2.64/100g","SALE"
+"72",2024-06-13 02:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.28,9.04,"310g","$1.54/100g","SALE"
+"73",2024-06-18 15:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.67,5.64,"310g","$1.57/100g","SALE"
+"74",2024-06-12 21:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.82,6.25,"310g","$2.29/100g","SALE"
+"75",2024-06-28 22:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.87,6.66,"310g","$2.9/100g","SALE"
+"76",2024-06-06,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.04,NA,"310g","$1.01/100g","SALE"
+"77",2024-06-05 13:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.54,8.18,"310g","$1.7/100g",NA
+"78",2024-06-07 13:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.86,9.04,"310g","$1.84/100g","SALE"
+"79",2024-06-03 15:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.92,6.29,"310g","$1.92/100g",NA
+"80",2024-06-21 02:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.8,9.1,"310g","$2.42/100g","SALE"
+"81",2024-06-20 20:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.86,5.08,"310g","$2.84/100g","SALE"
+"82",2024-06-20 23:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.85,8.27,"310g","$2.25/100g","SALE"
+"83",2024-06-30 14:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.69,9.06,"310g","$2.8/100g","SALE"
+"84",2024-06-03 18:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.57,NA,"310g","$2.51/100g",NA
+"85",2024-06-28 14:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.93,6.02,"310g","$1.28/100g","SALE"
+"86",2024-06-04 12:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.41,5.09,"310g","$1.31/100g","SALE"
+"87",2024-06-07 20:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.47,6.42,"310g","$1.38/100g","SALE"
+"88",2024-06-27 23:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.05,9.58,"310g","$1.87/100g","SALE"
+"89",2024-06-03 02:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.89,9.67,"310g","$1.17/100g",NA
+"90",2024-06-04 01:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.48,NA,"310g","$1.45/100g","SALE"
+"91",2024-06-08 09:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.63,6.1,"310g","$2.14/100g","SALE"
+"92",2024-06-16 01:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.93,NA,"310g","$1.8/100g","SALE"
+"93",2024-06-10 19:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.53,NA,"310g","$2.13/100g",NA
+"94",2024-06-26 09:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.2,7.04,"310g","$2.66/100g",NA
+"95",2024-06-14 17:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.35,5.52,"310g","$2.28/100g","SALE"
+"96",2024-06-06 06:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.51,6.4,"310g","$1.78/100g",NA
+"97",2024-06-09 19:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.59,6.81,"310g","$2.42/100g","SALE"
+"98",2024-06-29 13:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.96,NA,"310g","$1.22/100g","SALE"
+"99",2024-06-13 21:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.93,7.35,"310g","$1.55/100g","SALE"
+"100",2024-06-11 02:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.69,6.83,"310g","$2.19/100g","SALE"
+"101",2024-06-05 16:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.53,5.61,"310g","$1.32/100g","SALE"
+"102",2024-06-26 18:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.88,5.23,"310g","$2.71/100g","SALE"
+"103",2024-06-20 20:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.98,NA,"310g","$2.7/100g","SALE"
+"104",2024-06-07 06:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.25,9.84,"310g","$1.96/100g","SALE"
+"105",2024-06-28 17:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.53,NA,"310g","$2.55/100g",NA
+"106",2024-06-26 13:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.41,7.39,"310g","$1.59/100g",NA
+"107",2024-06-07 15:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.7,8.74,"310g","$1.13/100g","SALE"
+"108",2024-06-17 06:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.4,8.34,"310g","$1.88/100g","SALE"
+"109",2024-06-07 10:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.58,5.25,"310g","$1.92/100g","SALE"
+"110",2024-06-18 17:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.16,NA,"310g","$1.68/100g","SALE"
+"111",2024-06-01 04:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.08,NA,"310g","$1.37/100g","SALE"
+"112",2024-06-14 13:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.49,9.42,"310g","$2.01/100g","SALE"
+"113",2024-06-12 15:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.38,8.88,"310g","$1.04/100g",NA
+"114",2024-06-24 14:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.96,5.7,"310g","$2.55/100g","SALE"
+"115",2024-06-10 21:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.75,6.48,"310g","$2.12/100g","SALE"
+"116",2024-06-15 02:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.61,5.63,"310g","$2.28/100g","SALE"
+"117",2024-06-02 14:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.39,7.95,"310g","$1.94/100g",NA
+"118",2024-06-06 16:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.14,NA,"310g","$1.56/100g","SALE"
+"119",2024-06-19 22:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.74,8.44,"310g","$1.92/100g","SALE"
+"120",2024-06-24 07:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.22,6.56,"310g","$2.59/100g","SALE"
+"121",2024-06-25 12:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.98,8.03,"310g","$2.17/100g",NA
+"122",2024-06-04 10:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.61,9.96,"310g","$1.79/100g","SALE"
+"123",2024-06-29 23:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.46,NA,"310g","$2.62/100g","SALE"
+"124",2024-06-02 14:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.13,5.38,"310g","$1.64/100g",NA
+"125",2024-06-09 03:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.51,7.26,"310g","$2.16/100g","SALE"
+"126",2024-06-29 07:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.94,5.27,"310g","$1.91/100g","SALE"
+"127",2024-06-12 21:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.8,6.7,"310g","$1.54/100g","SALE"
+"128",2024-06-26 05:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.31,8.67,"310g","$2.11/100g","SALE"
+"129",2024-06-21 19:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.77,5.02,"310g","$1.46/100g",NA
+"130",2024-06-15 07:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.82,8.86,"310g","$2.09/100g","SALE"
+"131",2024-06-13 21:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.65,7.31,"310g","$1.9/100g","SALE"
+"132",2024-06-20 02:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.98,8.6,"310g","$1.26/100g","SALE"
+"133",2024-06-01 19:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.17,NA,"310g","$2.24/100g","SALE"
+"134",2024-06-09 02:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.06,7.86,"310g","$2.1/100g",NA
+"135",2024-06-07 19:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.54,8.52,"310g","$1.3/100g",NA
+"136",2024-06-03 03:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.44,8.29,"310g","$2.12/100g","SALE"
+"137",2024-06-23 05:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.5,6.45,"310g","$1.85/100g","SALE"
+"138",2024-06-08 08:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.81,5.49,"310g","$1.9/100g","SALE"
+"139",2024-06-24 01:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.41,9.81,"310g","$2.67/100g",NA
+"140",2024-06-04 11:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.92,8.68,"310g","$2.44/100g","SALE"
+"141",2024-06-22 18:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.66,8.06,"310g","$1.91/100g","SALE"
+"142",2024-06-27 08:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.83,5.6,"310g","$2.04/100g","SALE"
+"143",2024-06-17 07:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.33,NA,"310g","$1.48/100g","SALE"
+"144",2024-06-13 13:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.54,6.31,"310g","$1.15/100g","SALE"
+"145",2024-06-25 20:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.8,9.49,"310g","$1.78/100g","SALE"
+"146",2024-06-30 09:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.74,NA,"310g","$1.03/100g",NA
+"147",2024-06-26 18:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.79,6.18,"310g","$2.73/100g",NA
+"148",2024-06-25 12:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.37,5.65,"310g","$2.99/100g","SALE"
+"149",2024-06-18 21:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.62,6.63,"310g","$2.42/100g","SALE"
+"150",2024-06-30 13:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.75,8.63,"310g","$2.65/100g","SALE"
+"151",2024-06-30 15:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.2,9.96,"310g","$2.78/100g","SALE"
+"152",2024-06-18 19:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.29,8.58,"310g","$2.08/100g",NA
+"153",2024-06-28 23:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.18,7.52,"310g","$2.11/100g",NA
+"154",2024-06-11 09:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.45,7.18,"310g","$1.55/100g","SALE"
+"155",2024-06-18 20:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.06,9.74,"310g","$2.32/100g",NA
+"156",2024-06-17 13:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.74,NA,"310g","$1.49/100g","SALE"
+"157",2024-06-22 23:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.77,5.38,"310g","$1.58/100g","SALE"
+"158",2024-06-16 20:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.62,9.45,"310g","$2.43/100g","SALE"
+"159",2024-06-23 16:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.87,7.12,"310g","$2.46/100g","SALE"
+"160",2024-06-02 15:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.18,5.21,"310g","$1.35/100g","SALE"
+"161",2024-06-22 17:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.32,NA,"310g","$1.61/100g",NA
+"162",2024-06-20 16:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.83,7.34,"310g","$1.74/100g",NA
+"163",2024-06-09 07:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.92,8.09,"310g","$1.16/100g","SALE"
+"164",2024-06-06 04:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.35,NA,"310g","$2.43/100g",NA
+"165",2024-06-12,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.15,5.79,"310g","$2.1/100g","SALE"
+"166",2024-06-08 17:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.46,NA,"310g","$1.27/100g","SALE"
+"167",2024-06-24 20:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.41,7.54,"310g","$2.95/100g",NA
+"168",2024-06-11 11:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.05,NA,"310g","$2.12/100g","SALE"
+"169",2024-06-20 01:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.47,NA,"310g","$2.58/100g",NA
+"170",2024-06-07 07:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.11,5.85,"310g","$2.7/100g","SALE"
+"171",2024-06-03 05:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.14,NA,"310g","$2.76/100g","SALE"
+"172",2024-06-23 09:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.78,7.64,"310g","$2.6/100g","SALE"
+"173",2024-06-10 18:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.31,9.3,"310g","$2.28/100g","SALE"
+"174",2024-06-13,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.22,8.37,"310g","$2.26/100g","SALE"
+"175",2024-06-08 16:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.14,5.07,"310g","$1.54/100g","SALE"
+"176",2024-06-18 04:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3,8.47,"310g","$1.06/100g","SALE"
+"177",2024-06-27 02:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.09,9.46,"310g","$1.84/100g","SALE"
+"178",2024-06-22 17:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.52,8.16,"310g","$1.71/100g","SALE"
+"179",2024-06-13 20:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.08,5.54,"310g","$1.78/100g","SALE"
+"180",2024-06-03 05:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.07,9.61,"310g","$1.34/100g","SALE"
+"181",2024-06-09 12:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.54,8.38,"310g","$1.64/100g","SALE"
+"182",2024-06-23 08:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.44,5.74,"310g","$1.83/100g","SALE"
+"183",2024-06-24 11:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.66,8.73,"310g","$2.52/100g","SALE"
+"184",2024-06-17 06:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.58,9.71,"310g","$1.54/100g","SALE"
+"185",2024-06-18,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.64,7.1,"310g","$1.23/100g","SALE"
+"186",2024-06-15 09:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.39,NA,"310g","$1.06/100g","SALE"
+"187",2024-06-07 15:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.14,6.3,"310g","$2.61/100g","SALE"
+"188",2024-06-20 11:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.17,6.11,"310g","$1.96/100g","SALE"
+"189",2024-06-22 04:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.86,NA,"310g","$2.61/100g","SALE"
+"190",2024-06-03 08:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.35,8.78,"310g","$1.16/100g","SALE"
+"191",2024-06-20,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,5.3,8.35,"310g","$1.23/100g","SALE"
+"192",2024-06-26 16:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.51,NA,"310g","$1.26/100g","SALE"
+"193",2024-06-15 20:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.43,9.06,"310g","$2.48/100g","SALE"
+"194",2024-06-12 14:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,7.96,8.8,"310g","$2.51/100g","SALE"
+"195",2024-06-12 05:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.27,NA,"310g","$2.98/100g","SALE"
+"196",2024-06-27 21:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,3.25,NA,"310g","$2.25/100g","SALE"
+"197",2024-06-15 10:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.43,5.25,"310g","$1.58/100g","SALE"
+"198",2024-06-06 08:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,6.93,8.99,"310g","$1.4/100g","SALE"
+"199",2024-06-10 01:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.77,9.62,"310g","$2.6/100g",NA
+"200",2024-06-26 17:00:00,"Voila",5361,"Nature Valley Protein Granola Cereal, Oats 'n Honey",NA,4.83,7.71,"310g","$2.46/100g","SALE"
