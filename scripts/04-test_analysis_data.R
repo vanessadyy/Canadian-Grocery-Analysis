@@ -1,11 +1,12 @@
 #### Preamble ####
-# Purpose: Tests... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 26 September 2024 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Test the clean data
+# Author: Tianrui Fu, Yiyue Deng, Yun Chu, Yanzun Jiang, Felix Li and Wen Han Zhao
+# Date: 14 November 2024
+# Contact: tianrui.fu@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: The clean data script is done by SQL
+# Any other information needed? None
+
 
 
 #### Workspace setup ####
