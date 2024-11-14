@@ -1,5 +1,5 @@
 #### Preamble ####
-# Purpose: Cleans the raw data from the website [https://jacobfilipp.com/hammer/]("https://jacobfilipp.com/hammer/")
+# Purpose: Set the simulated data 
 # Author: Tianrui Fu, Yiyue Deng, Yun Chu, Yanzun Jiang, Felix Li and Wen Han Zhao
 # Date: 14 November 2024
 # Contact: tianrui.fu@mail.utoronto.ca
