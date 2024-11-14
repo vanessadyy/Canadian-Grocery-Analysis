@@ -76,7 +76,7 @@ ggplot(df_vendor_count, aes(x = reorder(vendor, -product_count), y = product_cou
 
 # Results
 
-Our results are summarized in @tbl-modelresults.
+The analysis of unit prices for milk and juice across five vendors — Loblaws, NoFrills, SaveOnFoods, Voila, and Walmart, and eggplant across three of them — Loblaws, NoFrills, and Voila - reveals that Loblaws offers the lowest prices for milk and juice, which are both 10 cents per 100 ml. While eggplants using (per item) as the unit might not be comparable, NoFrills offers the lowest price, whichi is 1.29 dollars per lb (29 cents per 100 g). This indicates that Loblaws is the best choice for milk and juice, while NoFrills is the best choice for eggplants, offering the greatest savings on a wide range of groceries.
 
 ```{r}
 #| label: fig-grocerybread
