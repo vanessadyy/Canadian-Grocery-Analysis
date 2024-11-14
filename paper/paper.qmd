@@ -24,7 +24,6 @@ toc: true
 #| message: false
 
 library(tidyverse)
-library(palmerpenguins)
 data <- read.csv(file = here::here('data/01-analysis_data/analysis_data.csv'))
 ```
 
@@ -39,7 +38,7 @@ This study fills that gap by rigorously analyzing Project Hammer’s data from F
 
 ## Overview
 
-The data is from @projecthammer which contains Canadian Grocery Price Data from February 28, 2024 to today November 14, 2024. The 8 vendors in the dataset contains: Voila, T&T, Loblaws, No Frills, Metro, Galleria, Walmart and Save-On-Foods. The variables key to this paper are price per units, vendors, product_id, and product name. We used @citedplyr and @citeR to clean the data and perform analysis.
+The data is from @filipp2024 which contains Canadian Grocery Price Data from February 28, 2024 to today November 14, 2024. The 8 vendors in the dataset contains: Voila, T&T, Loblaws, No Frills, Metro, Galleria, Walmart and Save-On-Foods. The variables key to this paper are price per units, vendors, product_id, and product name. We used @citedplyr, @citeR, @tidyverse and @ggplot2 to clean the data and perform analysis and based on the template from @rohan .
 
 Price per Unit: This represents the price for each product, normalized by its unit of measurement (e.g., per kilogram, per liter, or per item). This variable is pivotal for our analysis of price comparison across vendors and is used to identify the lowest price for specific products across all vendors.
 
@@ -55,7 +54,7 @@ The measurement of data in this analysis will focus on the price per unit variab
 
 ## Overview of different vendors
 
-```{r}
+```{r, fig.pos= 'H', fig.width=8, fig.height=4}
 #| label: fig-vendor
 #| fig-cap: Number of Products Offereed by Each Vendors 
 #| echo: false
@@ -75,9 +74,10 @@ ggplot(df_vendor_count, aes(x = reorder(vendor, -product_count), y = product_cou
 ```
 
 The bar chart provides an overview of the number of products offered by each vendor. Among the vendors, Loblaw has the highest product count, offering nearly 10,000 items, followed by Voila and NoFrills, which offer around 7,500 and 5,000 products, respectively. Walmart and SaveOnFoods offer fewer items, with Walmart slightly ahead. Metro has the fewest products available among the vendors shown. This variation in product counts reflects each vendor’s market approach and target customer base, with Loblaw and Voila offering a broader selection, likely appealing to consumers seeking diverse product options.
+
 # Results
 
-The analysis of unit prices for milk and juice across five vendors — Loblaws, NoFrills, SaveOnFoods, Voila, and Walmart, and eggplant across three of them — Loblaws, NoFrills, and Voila - reveals that Loblaws offers the lowest prices for milk and juice, which are both 10 cents per 100 ml. While eggplants using (per item) as the unit might not be comparable, NoFrills offers the lowest price, whichi is 1.29 dollars per lb (29 cents per 100 g). This indicates that Loblaws is the best choice for milk and juice, while NoFrills is the best choice for eggplants, offering the greatest savings on a wide range of groceries.
+From @fig-grocerybread, @fig-groceryjuice, and @fig-groceryeggplant, the analysis of unit prices for milk and juice across five vendors — Loblaws, NoFrills, SaveOnFoods, Voila, and Walmart, and eggplant across three of them — Loblaws, NoFrills, and Voila - reveals that Loblaws offers the lowest prices for milk and juice, which are both 10 cents per 100 ml. While eggplants using (per item) as the unit might not be comparable, NoFrills offers the lowest price, whichi is 1.29 dollars per lb (29 cents per 100 g). This indicates that Loblaws is the best choice for milk and juice, while NoFrills is the best choice for eggplants, offering the greatest savings on a wide range of groceries.
 
 ```{r, fig.pos= 'H', fig.width=8, fig.height=4}
 #| label: fig-grocerybread
@@ -136,16 +136,22 @@ ggplot(df_eggplant, aes(x = vendor, y = price_per_unit)) +
 
 # Discussion
 
-## 1. Correlation vs. Causation
+## Correlation vs. Causation
+
 The observed trend in prices over time may suggest a relationship between time and changes in the price of Nature Valley products. However, it is crucial to distinguish between **correlation** and **causation**. The price changes might coincide with certain periods (e.g., sales promotions or seasonal demand fluctuations), but this does not necessarily imply that time directly influences the price adjustments. Other underlying factors, such as marketing strategies, supply chain issues, or changes in consumer demand, could also be driving these variations. Therefore, while the graph shows a correlation between time and price, asserting a causal relationship would require deeper analysis, including controlling for other variables.
 
-## 2. Missing Data
+## Missing Data
+
 Missing data could affect the analysis and interpretation of the price trend. In this dataset, any gaps in the time series (e.g., missing records for certain dates) could lead to misleading conclusions about price stability or changes. For instance, a price drop or spike could be missed entirely if data is missing for a key period. Imputation techniques or sensitivity analyses may be necessary to address these gaps and provide a more robust understanding of the price trend. 
 
-## 3. Sources of Bias
+## Sources of Bias
+
 There are several potential sources of bias in this analysis:
+
 - **Selection Bias**: The data only includes records from a specific vendor (e.g., Voila), which may not be representative of the overall market. Prices from other retailers or platforms could vary significantly.
+
 - **Temporal Bias**: The analysis spans a limited timeframe, which may not capture long-term trends or seasonal variations adequately. A longer dataset might reveal different patterns.
+
 - **Measurement Bias**: If the pricing data were collected manually or extracted from different sources, inconsistencies could introduce measurement errors. Variability in product packaging (e.g., different sizes or promotional bundles) might also distort the price comparisons.
 
 These biases should be acknowledged when interpreting the results, and future studies could aim to include a broader range of vendors, a longer time series, and more rigorous data validation methods.
