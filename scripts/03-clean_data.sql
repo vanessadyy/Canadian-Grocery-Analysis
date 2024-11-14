@@ -21,11 +21,14 @@ WHERE
     AND r.price_per_unit IS NOT NULL 
     AND r.other IS NOT NULL 
     AND r.product_id IS NOT NULL
+	AND p.id IS NOT NULL
+	AND p.product_name IS NOT NULL
+	AND p.vendor IS NOT NULL
 ORDER BY 
     r.product_id;
 	
 CREATE TABLE analysis_data AS
-SELECT 
+SELECT DISTINCT
 	price_per_unit,
 	id,
 	product_name,
