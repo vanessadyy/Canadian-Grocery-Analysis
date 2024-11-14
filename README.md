@@ -1,5 +1,4 @@
-# Canadian-Grocery-Analysis-
-Analysis Canadian Grocery
+# Canadian-Grocery-Analysis
 
 ## Overview
 
