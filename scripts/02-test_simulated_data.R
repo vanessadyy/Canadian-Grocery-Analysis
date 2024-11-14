@@ -1,11 +1,11 @@
 #### Preamble ####
-# Purpose: Cleans the raw plane data recorded by two observers..... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 6 April 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Test the simulate data
+# Author: Tianrui Fu, Yiyue Deng, Yun Chu, Yanzun Jiang, Felix Li and Wen Han Zhao
+# Date: 14 November 2024
+# Contact: tianrui.fu@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: None
+# Any other information needed? None
 
 # Load the necessary libraries
 library(testthat)
