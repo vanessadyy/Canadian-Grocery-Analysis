@@ -38,7 +38,7 @@ This study fills that gap by rigorously analyzing Project Hammer’s data from F
 
 ## Overview
 
-The data is from @projecthammer which contains Canadian Grocery Price Data from February 28, 2024 to today November 14, 2024. The 8 vendors in the dataset contains: Voila, T&T, Loblaws, No Frills, Metro, Galleria, Walmart and Save-On-Foods. The variables key to this paper are price per units, vendors, product_id, and product name. 
+The data is from @projecthammer which contains Canadian Grocery Price Data from February 28, 2024 to today November 14, 2024. The 8 vendors in the dataset contains: Voila, T&T, Loblaws, No Frills, Metro, Galleria, Walmart and Save-On-Foods. The variables key to this paper are price per units, vendors, product_id, and product name. We used @citedplyr and @citeR to clean the data and perform analysis.
 
 Price per Unit: This represents the price for each product, normalized by its unit of measurement (e.g., per kilogram, per liter, or per item). This variable is pivotal for our analysis of price comparison across vendors and is used to identify the lowest price for specific products across all vendors.
 
@@ -148,53 +148,6 @@ There are several potential sources of bias in this analysis:
 - **Measurement Bias**: If the pricing data were collected manually or extracted from different sources, inconsistencies could introduce measurement errors. Variability in product packaging (e.g., different sizes or promotional bundles) might also distort the price comparisons.
 
 These biases should be acknowledged when interpreting the results, and future studies could aim to include a broader range of vendors, a longer time series, and more rigorous data validation methods.
-
-
-\newpage
-
-\appendix
-
-# Appendix {-}
-
-
-# Additional data details
-
-# Model details {#sec-model-details}
-
-## Posterior predictive check
-
-In @fig-ppcheckandposteriorvsprior-1 we implement a posterior predictive check. This shows...
-
-In @fig-ppcheckandposteriorvsprior-2 we compare the posterior with the prior. This shows... 
-
-```{r}
-#| eval: true
-#| echo: false
-#| message: false
-#| warning: false
-#| label: fig-ppcheckandposteriorvsprior
-#| layout-ncol: 2
-#| fig-cap: "Examining how the model fits, and is affected by, the data"
-#| fig-subcap: ["Posterior prediction check", "Comparing the posterior with the prior"]
-```
-
-## Diagnostics
-
-@fig-stanareyouokay-1 is a trace plot. It shows... This suggests...
-
-@fig-stanareyouokay-2 is a Rhat plot. It shows... This suggests...
-
-```{r}
-#| echo: false
-#| eval: true
-#| message: false
-#| warning: false
-#| label: fig-stanareyouokay
-#| fig-cap: "Checking the convergence of the MCMC algorithm"
-#| fig-subcap: ["Trace plot", "Rhat plot"]
-#| layout-ncol: 2
-```
-
 
 
 \newpage
