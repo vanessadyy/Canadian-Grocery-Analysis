@@ -52,6 +52,27 @@ Product Name: The product_name variable represents the name of the product, ofte
 	
 The measurement of data in this analysis will focus on the price per unit variable, which represents the cost of a product per its unit of measurement (e.g., per kilogram, per liter, or per item). This metric allows for a standardized comparison of prices across different Canadian grocery vendors. By analyzing the price per unit, we can identify the lowest price for each product offered by various vendors, enabling us to assess price variations and competitive pricing strategies within the market.
 
+## Overview of different vendors
+
+```{r}
+#| label: fig-vendor
+#| fig-cap: Number of Products Offereed by Each Vendors 
+#| echo: false
+
+# Count the number of unique products for each vendor
+df_vendor_count <- data %>%
+  group_by(vendor) %>%
+  summarise(product_count = n_distinct(product_name))
+
+# Create the bar graph
+ggplot(df_vendor_count, aes(x = reorder(vendor, -product_count), y = product_count, fill = vendor)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Number of Products Offered by Each Vendor",
+       x = "Vendor", y = "Number of Products") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
 
 # Results
 
