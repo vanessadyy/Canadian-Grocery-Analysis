@@ -11,10 +11,11 @@ author:
 thanks: "Code and data are available at: [https://github.com/younazhao/Canadian-Grocery-Analysis](https://github.com/younazhao/Canadian-Grocery-Analysis)."
 date: today
 date-format: long
-abstract: "This study compares the pricing of various grocers to determine which consistently offers the lowest prices across comparable product families. By analyzing data collected from market surveys over several months, we assess price differences in categories such as fresh produce, packaged goods, and household items. The results show that discount grocers generally offer the lowest prices, with regional stores occasionally providing competitive pricing in select categories. These findings provide valuable insights for consumers looking to maximize savings and for businesses aiming to refine pricing strategies. The results "
+abstract: "This study compares the pricing of various grocers to determine which consistently offers the lowest prices across comparable product families. By analyzing data collected from market surveys over several months, we assess price differences in categories such as fresh produce, packaged goods, and household items. The results show that discount grocers generally offer the lowest prices, with regional stores occasionally providing competitive pricing in select categories. These findings provide valuable insights for consumers looking to maximize savings and for businesses aiming to refine pricing strategies. The results shows that Loblaws have the lowest price per unit and No frills have the second lowest price per unit for selected product. "
 format: pdf
 number-sections: true
 bibliography: references.bib
+toc: true
 ---
 
 ```{r}
