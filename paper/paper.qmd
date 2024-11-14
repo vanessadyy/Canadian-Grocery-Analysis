@@ -25,20 +25,9 @@ library(palmerpenguins)
 
 # Introduction
 
-Overview paragraph
+Canada’s grocery sector, with its high market concentration and rising consumer prices, faces increasing scrutiny over limited competition and potential collusion. The recent Competition Bureau study highlights an urgent need for pricing transparency, yet consumers lack clear, data-driven insights into which grocers consistently offer the lowest prices across core product categories. To address this, Project Hammer has compiled an unprecedented, time-stamped database of historical prices from eight major Canadian grocers—Voila, T&T, Loblaws, No Frills, Metro, Galleria, Walmart, and Save-On-Foods—with the aim of promoting fairer competition and enhancing consumer choice. While the dataset is extensive, a structured analysis is essential to identify which retailer consistently provides the best value.
 
-Estimand paragraph
-
-Results paragraph
-
-Why it matters paragraph
-
-Telegraphing paragraph: The remainder of this paper is structured as follows. @sec-data....
-
-
-
-
-
+This study fills that gap by rigorously analyzing Project Hammer’s data from February to November 2024 to answer the question: Which grocer is generally the cheapest across all comparable product families? Using standardized methodologies to calculate and compare average prices across thousands of items, we identify the retailer with the lowest overall pricing and examine category-specific competitive patterns, providing a comprehensive view of grocery pricing dynamics.
 
 # Data {#sec-data}
 
@@ -104,41 +93,6 @@ Add graphs, tables and text.
 Use sub-sub-headings for each outcome variable and feel free to combine a few into one if they go together naturally.
 
 
-
-
-
-
-
-
-# Model
-
-The goal of our modelling strategy is twofold. Firstly,...
-
-Here we briefly describe the Bayesian analysis model used to investigate... Background details and diagnostics are included in [Appendix -@sec-model-details].
-
-## Model set-up
-
-Define $y_i$ as the number of seconds that the plane remained aloft. Then $\beta_i$ is the wing width and $\gamma_i$ is the wing length, both measured in millimeters.  
-
-\begin{align} 
-y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
-\mu_i &= \alpha + \beta_i + \gamma_i\\
-\alpha &\sim \mbox{Normal}(0, 2.5) \\
-\beta &\sim \mbox{Normal}(0, 2.5) \\
-\gamma &\sim \mbox{Normal}(0, 2.5) \\
-\sigma &\sim \mbox{Exponential}(1)
-\end{align}
-
-We run the model in R [@citeR] using the `rstanarm` package of @rstanarm. We use the default priors from `rstanarm`.
-
-
-### Model justification
-
-We expect a positive relationship between the size of the wings and time spent aloft. In particular...
-
-We can use maths by including latex between dollar signs, for instance $\theta$.
-
-
 # Results
 
 Our results are summarized in @tbl-modelresults.
@@ -147,12 +101,6 @@ Our results are summarized in @tbl-modelresults.
 #| echo: false
 #| eval: true
 #| warning: false
-#| message: false
-
-library(rstanarm)
-
-first_model <-
-  readRDS(file = here::here("models/first_model.rds"))
 ```
 
 ```{r}
@@ -161,14 +109,6 @@ first_model <-
 #| label: tbl-modelresults
 #| tbl-cap: "Explanatory models of flight time based on wing width and wing length"
 #| warning: false
-
-modelsummary::modelsummary(
-  list(
-    "First model" = first_model
-  ),
-  statistic = "mad",
-  fmt = 2
-)
 ```
 
 
@@ -176,19 +116,20 @@ modelsummary::modelsummary(
 
 # Discussion
 
-## First discussion point {#sec-first-point}
+## 1. Correlation vs. Causation
+The observed trend in prices over time may suggest a relationship between time and changes in the price of Nature Valley products. However, it is crucial to distinguish between **correlation** and **causation**. The price changes might coincide with certain periods (e.g., sales promotions or seasonal demand fluctuations), but this does not necessarily imply that time directly influences the price adjustments. Other underlying factors, such as marketing strategies, supply chain issues, or changes in consumer demand, could also be driving these variations. Therefore, while the graph shows a correlation between time and price, asserting a causal relationship would require deeper analysis, including controlling for other variables.
 
-If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
+## 2. Missing Data
+Missing data could affect the analysis and interpretation of the price trend. In this dataset, any gaps in the time series (e.g., missing records for certain dates) could lead to misleading conclusions about price stability or changes. For instance, a price drop or spike could be missed entirely if data is missing for a key period. Imputation techniques or sensitivity analyses may be necessary to address these gaps and provide a more robust understanding of the price trend. 
 
-## Second discussion point
+## 3. Sources of Bias
+There are several potential sources of bias in this analysis:
+- **Selection Bias**: The data only includes records from a specific vendor (e.g., Voila), which may not be representative of the overall market. Prices from other retailers or platforms could vary significantly.
+- **Temporal Bias**: The analysis spans a limited timeframe, which may not capture long-term trends or seasonal variations adequately. A longer dataset might reveal different patterns.
+- **Measurement Bias**: If the pricing data were collected manually or extracted from different sources, inconsistencies could introduce measurement errors. Variability in product packaging (e.g., different sizes or promotional bundles) might also distort the price comparisons.
 
-Please don't use these as sub-heading labels - change them to be what your point actually is.
+These biases should be acknowledged when interpreting the results, and future studies could aim to include a broader range of vendors, a longer time series, and more rigorous data validation methods.
 
-## Third discussion point
-
-## Weaknesses and next steps
-
-Weaknesses and next steps should also be included.
 
 \newpage
 
@@ -216,16 +157,6 @@ In @fig-ppcheckandposteriorvsprior-2 we compare the posterior with the prior. Th
 #| layout-ncol: 2
 #| fig-cap: "Examining how the model fits, and is affected by, the data"
 #| fig-subcap: ["Posterior prediction check", "Comparing the posterior with the prior"]
-
-pp_check(first_model) +
-  theme_classic() +
-  theme(legend.position = "bottom")
-
-posterior_vs_prior(first_model) +
-  theme_minimal() +
-  scale_color_brewer(palette = "Set1") +
-  theme(legend.position = "bottom") +
-  coord_flip()
 ```
 
 ## Diagnostics
@@ -243,10 +174,6 @@ posterior_vs_prior(first_model) +
 #| fig-cap: "Checking the convergence of the MCMC algorithm"
 #| fig-subcap: ["Trace plot", "Rhat plot"]
 #| layout-ncol: 2
-
-plot(first_model, "trace")
-
-plot(first_model, "rhat")
 ```
 
 
