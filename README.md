@@ -8,8 +8,8 @@ The repo aims to analyze the lowest product price accross Canadian Groceries, li
 ## File Structure
 
 The repo is structured as:
-
--   `data/raw_data` contains the raw data as obtained from the website [https://jacobfilipp.com/hammer/]("https://jacobfilipp.com/hammer/").
+.
+-   `data/raw_data` contains the raw data as obtained from the website https://jacobfilipp.com/hammer/.
 -   `data/analysis_data` contains the cleaned dataset that was constructed by SQL.
 -   `other` contains details about LLM chat interactions, and sketches.
 -   `paper` contains the files used to generate the paper, including the Quarto document and reference bibliography file, as well as the PDF of the paper. 
