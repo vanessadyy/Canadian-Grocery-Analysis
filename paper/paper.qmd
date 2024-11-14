@@ -74,12 +74,12 @@ ggplot(df_vendor_count, aes(x = reorder(vendor, -product_count), y = product_cou
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
-
+The bar chart provides an overview of the number of products offered by each vendor. Among the vendors, Loblaw has the highest product count, offering nearly 10,000 items, followed by Voila and NoFrills, which offer around 7,500 and 5,000 products, respectively. Walmart and SaveOnFoods offer fewer items, with Walmart slightly ahead. Metro has the fewest products available among the vendors shown. This variation in product counts reflects each vendor’s market approach and target customer base, with Loblaw and Voila offering a broader selection, likely appealing to consumers seeking diverse product options.
 # Results
 
 The analysis of unit prices for milk and juice across five vendors — Loblaws, NoFrills, SaveOnFoods, Voila, and Walmart, and eggplant across three of them — Loblaws, NoFrills, and Voila - reveals that Loblaws offers the lowest prices for milk and juice, which are both 10 cents per 100 ml. While eggplants using (per item) as the unit might not be comparable, NoFrills offers the lowest price, whichi is 1.29 dollars per lb (29 cents per 100 g). This indicates that Loblaws is the best choice for milk and juice, while NoFrills is the best choice for eggplants, offering the greatest savings on a wide range of groceries.
 
-```{r}
+```{r, fig.pos= 'H', fig.width=8, fig.height=4}
 #| label: fig-grocerybread
 #| fig-cap: Price per Unit of Milk Across Vendors
 #| echo: false
@@ -99,7 +99,7 @@ ggplot(df_multigrainbread, aes(x = vendor, y = price_per_unit)) +
   theme_minimal()
 ```
 
-```{r}
+```{r, fig.pos= 'H', fig.width=8, fig.height=4}
 #| label: fig-groceryjuice
 #| fig-cap: Price per Unit of 100% Juice Acrss Vendors 
 #| echo: false
@@ -116,7 +116,7 @@ ggplot(df_juice, aes(x = vendor, y = price_per_unit)) +
   theme_minimal()
 ```
 
-```{r}
+```{r, fig.pos= 'H', fig.width=8, fig.height=4}
 #| label: fig-groceryeggplant
 #| fig-cap: Price per units of Eggplant across vendors
 #| echo: false
