@@ -2,12 +2,7 @@
 title: "Lowest Product Prices across Canadian Groceries"
 subtitle: "Analysis the Price per Units of Selected Product across 8 Canadian Groceries "
 author: 
-  - Yun Chu
   - Yiyue Deng
-  - Tiarui Fu
-  - Yanzun Jiang
-  - Felix Li
-  - Wen Han Zhao
 thanks: "Code and data are available at: [https://github.com/younazhao/Canadian-Grocery-Analysis](https://github.com/younazhao/Canadian-Grocery-Analysis)."
 date: today
 date-format: long
