@@ -26,9 +26,11 @@ data <- read.csv(file = here::here('data/01-analysis_data/analysis_data.csv'))
 
 # Introduction
 
-Canada’s grocery sector, with its high market concentration and rising consumer prices, faces increasing scrutiny over limited competition and potential collusion. The recent Competition Bureau study highlights an urgent need for pricing transparency, yet consumers lack clear, data-driven insights into which grocers consistently offer the lowest prices across core product categories. To address this, Project Hammer has compiled an unprecedented, time-stamped database of historical prices from eight major Canadian grocers—Voila, T&T, Loblaws, No Frills, Metro, Galleria, Walmart, and Save-On-Foods—with the aim of promoting fairer competition and enhancing consumer choice. While the dataset is extensive, a structured analysis is essential to identify which retailer consistently provides the best value.
+Canada’s grocery sector, with its high market concentration and rising consumer prices, faces increasing scrutiny over limited competition and potential collusion. The recent Competition Bureau study highlights an urgent need for pricing transparency, yet consumers lack clear, data-driven insights into which grocers consistently offer the lowest prices across core product categories. To address this, Project Hammer has compiled a comprehensive, time-stamped database of historical prices from eight major Canadian grocers—Voila, T&T, Loblaws, No Frills, Metro, Galleria, Walmart, and Save-On-Foods—with the aim of promoting fairer competition and enhancing consumer choice. However, a systematic analysis is required to determine which retailer consistently provides the best value.
 
-This study fills that gap by rigorously analyzing Project Hammer’s data from February to November 2024 to answer the question: Which grocer is generally the cheapest across all comparable product families? Using standardized methodologies to calculate and compare average prices across thousands of items, we identify the retailer with the lowest overall pricing and examine category-specific competitive patterns, providing a comprehensive view of grocery pricing dynamics.
+This study investigates Project Hammer’s data from February to November 2024 to answer the question: Which grocer offers the lowest prices across comparable product families? By applying standardized methodologies to calculate and compare average prices across thousands of items, this paper identifies the retailer with the lowest overall pricing and explores category-specific pricing trends, offering a detailed view of grocery pricing dynamics.
+
+The remainder of this paper is organized as follows: @sec-data introduces the dataset, including key variables such as price per unit and vendor details, and explains the measurement methods used to standardize price comparisons. @sec-results presents the results, identifying the retailer with the lowest prices overall and analyzing pricing patterns across different product categories. @sec-discussion discusses the implications of these findings, including potential limitations such as biases and missing data, and suggests areas for further research. This structured approach provides a comprehensive understanding of grocery pricing trends and their relevance to consumers and policymakers.
 
 # Data {#sec-data}
 
@@ -71,7 +73,7 @@ ggplot(df_vendor_count, aes(x = reorder(vendor, -product_count), y = product_cou
 
 The bar chart provides an overview of the number of products offered by each vendor. Among the vendors, Loblaw has the highest product count, offering nearly 10,000 items, followed by Voila and NoFrills, which offer around 7,500 and 5,000 products, respectively. Walmart and SaveOnFoods offer fewer items, with Walmart slightly ahead. Metro has the fewest products available among the vendors shown. This variation in product counts reflects each vendor’s market approach and target customer base, with Loblaw and Voila offering a broader selection, likely appealing to consumers seeking diverse product options.
 
-# Results
+# Results {#sec-results}
 
 From @fig-grocerybread, @fig-groceryjuice, and @fig-groceryeggplant, the analysis of unit prices for milk and juice across five vendors — Loblaws, NoFrills, SaveOnFoods, Voila, and Walmart, and eggplant across three of them — Loblaws, NoFrills, and Voila - reveals that Loblaws offers the lowest prices for milk and juice, which are both 10 cents per 100 ml. While eggplants using (per item) as the unit might not be comparable, NoFrills offers the lowest price, whichi is 1.29 dollars per lb (29 cents per 100 g). This indicates that Loblaws is the best choice for milk and juice, while NoFrills is the best choice for eggplants, offering the greatest savings on a wide range of groceries.
 
@@ -130,7 +132,7 @@ ggplot(df_eggplant, aes(x = vendor, y = price_per_unit)) +
 ```
 
 
-# Discussion
+# Discussion {#sec-discussion}
 
 ## Correlation vs. Causation
 
