@@ -1,18 +1,17 @@
 #### Preamble ####
-# Purpose: Test the clean data
-# Author: Tianrui Fu, Yiyue Deng, Yun Chu, Yanzun Jiang, Felix Li and Wen Han Zhao
-# Date: 14 November 2024
-# Contact: tianrui.fu@mail.utoronto.ca
+# Purpose: Tests... [...UPDATE THIS...]
+# Author: Rohan Alexander [...UPDATE THIS...]
+# Date: 26 September 2024 [...UPDATE THIS...]
+# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
 # License: MIT
-# Pre-requisites: The clean data script is done by SQL
-# Any other information needed? None
-
+# Pre-requisites: [...UPDATE THIS...]
+# Any other information needed? [...UPDATE THIS...]
 
 
 #### Workspace setup ####
 library(tidyverse)
 
-analysis_data <- read_csv("/Users/frankstrove/Desktop/STA304/starter_folder-main 3/data/02-analysis_data/analysis_data.csv")
+analysis_data <- read_csv("data/02-analysis_data/analysis_data.csv")
 
 
 #### Test data ####
