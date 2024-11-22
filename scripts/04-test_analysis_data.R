@@ -1,11 +1,11 @@
-#### Preamble ####
-# Purpose: Tests... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 26 September 2024 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+## Preamble
+# Purpose: Test the cleaned data
+# Author: Tianrui Fu, Yiyue Deng
+# Date: 14 November 2024
+# Contact: tianrui.fu@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: None
+# Any other information needed? None
 
 
 #### Workspace setup ####
